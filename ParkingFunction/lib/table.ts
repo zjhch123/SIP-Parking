@@ -9,7 +9,7 @@ export const init = () => {
 
 export const addItem = async (ground: number, underground: number) => {
   const task = {
-    partitionKey: "p1",
+    partitionKey: 'p1',
     rowKey: Date.now().toString(),
     ground,
     underground,
